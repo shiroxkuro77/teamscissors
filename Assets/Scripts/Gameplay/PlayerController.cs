@@ -1,19 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     #region Fields
 
-    [SerializeField]
-    private float movementSpeed;
-
-    // For base movement
     private Rigidbody2D rb2D;
-    private float horizontal;
-    private float vertical;
-    private Vector2 velocityVector;
+
+    // Movement support
+    private Vector2 movementInput;
+    [SerializeField]
+    private ContactFilter2D movementFilter;
+    private List<RaycastHit2D> castCollisions;
+
+    // TODO: change to const
+    [SerializeField]
+    private float movementSpeed = 1f;
+    [SerializeField]
+    private float collisionOffset = 0.05f;
+
+    // Physics support
+    int numCollisions;
 
     #endregion
 
@@ -24,27 +33,32 @@ public class PlayerController : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
     }
 
+    void Start()
+    {
+        castCollisions = new List<RaycastHit2D>();
+    }
+
+    void OnMove(InputValue movementValue)
+    {
+        movementInput = movementValue.Get<Vector2>();
+    }
+
     void FixedUpdate()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        if (movementInput != Vector2.zero)
+        {
+            numCollisions = rb2D.Cast(
+                movementInput,
+                movementFilter,
+                castCollisions,
+                movementSpeed * Time.fixedDeltaTime * collisionOffset
+                );
 
-        if (horizontal != 0)
-        {
-            velocityVector.x = movementSpeed * horizontal;
-            velocityVector.y = 0;
+            if (numCollisions == 0)
+            {
+                rb2D.MovePosition(rb2D.position + movementInput * movementSpeed * Time.fixedDeltaTime);
+            }
         }
-        else if (vertical != 0)
-        {
-            velocityVector.x = 0;
-            velocityVector.y = movementSpeed * vertical;
-        }
-        else
-        {
-            velocityVector = Vector2.zero;
-        }
-
-        rb2D.velocity = velocityVector;
     }
 
     #endregion
