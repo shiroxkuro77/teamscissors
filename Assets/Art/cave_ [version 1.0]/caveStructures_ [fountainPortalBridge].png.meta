@@ -1,16 +1,12 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b1a6c49d6f24f48f09de8e67e886d2bf
-=======
-guid: 65f67a446b6b445429c3a26dde49625c
->>>>>>> 0f9ced10ba3209dadffa4b584ef47bf1ab1f600b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,25 +33,25 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -66,15 +62,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,42 +94,775 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 0f9ced10ba3209dadffa4b584ef47bf1ab1f600b
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266.66666
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949974e33ed17422ab8c3f9e2fe9ebb8
+      internalID: -1396425754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266.66666
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cf1d0f0f4d446be8059954cd29290e
+      internalID: 1948403205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 266.66666
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0014841123f564f3c8a935352be2d4c8
+      internalID: 421395708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 266.66666
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d63c84c757643baa6537b654eceab6
+      internalID: 247167613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 266.66666
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa77b622c66064d7c9f301b78cdee37b
+      internalID: 2075843370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd484c3e3adf0474b8df0ccbda0ee94d
+      internalID: 539032566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b971fa6f010549bf8c5f77b77013840
+      internalID: -568701509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e7dbc39af924ed3b7913486ad1f9ee
+      internalID: -257895511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57efc938c87f4e258775adc2dbdb2d7
+      internalID: 544696953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a2bb5f636046d3b78d8e48eb025fa
+      internalID: 410491970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 213.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7f48d10c004e43a0badba3865ac90
+      internalID: 634802656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad3f24753a04f75bba2dbe04d6dc9d
+      internalID: 1998612125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ad5f7c31de743589fd033164ddff66
+      internalID: 1837502828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ce0ee8b4e304abb8159344feaf9388
+      internalID: -1652852126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d43cd20937044f483e9d7dabd4fb64
+      internalID: -351729731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33e2840af378449f98d0dcda44288af
+      internalID: -17839128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb552553bfa3f43c09cda26b29708f43
+      internalID: -2018872243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d96c492e1214ec1ae5d1a2c3bf9e3d
+      internalID: 694997862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b609d735f543c4c5384cc36ed6ef3455
+      internalID: -1461057222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24a933c6793748a6a8b3b555ac155e0
+      internalID: -149409569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec58250c1d9914ac0a17ddcf9c5da2fb
+      internalID: -109175082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab97f3d3c8e8483c91f702f9c64e89d
+      internalID: 1177488106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 107.66667
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2debd449252484c6486876e8b6d255ca
+      internalID: -461336825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbadc3bdbfdac4a069d8597036707f56
+      internalID: -1417182817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8aeed1c8a5c4923977a7d6002fa993
+      internalID: 1041574931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb673d17ac4224c778dde9812c1f1118
+      internalID: 1729382396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18669c62df68a4348a3d1976b4aaf7a8
+      internalID: 1306483955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b46c5725fa34070a8f43833a739f3c
+      internalID: 1708835350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 54.666668
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c4a30844a7b48eb97ab28500c54010
+      internalID: 1904519708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1.6666679
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f85f83b6590a4fe2b79122a1ff77a03
+      internalID: -110141179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1.6666679
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e332efe7a9f4fee81eecf06118acda
+      internalID: 540322413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1.6666679
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b442796dc03d74b41a1ea84e4c718594
+      internalID: 829091914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1.6666679
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa61c6b7ca964851829132d2d541d34
+      internalID: -372408295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caveStructures_ [fountainPortalBridge]_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1.6666679
+        width: 48
+        height: 53.333332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d911c39af12d446c9fc14133a32a6eb
+      internalID: -668892032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ce029bd2ab01b453590ae86bb0a983f5
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caveStructures_ [fountainPortalBridge]_3: 247167613
+      caveStructures_ [fountainPortalBridge]_1: 1948403205
+      caveStructures_ [fountainPortalBridge]_4: 2075843370
+      caveStructures_ [fountainPortalBridge]_9: 410491970
+      caveStructures_ [fountainPortalBridge]_11: 1998612125
+      caveStructures_ [fountainPortalBridge]_14: -351729731
+      caveStructures_ [fountainPortalBridge]_16: -2018872243
+      caveStructures_ [fountainPortalBridge]_26: 1306483955
+      caveStructures_ [fountainPortalBridge]_31: 829091914
+      caveStructures_ [fountainPortalBridge]_24: 1041574931
+      caveStructures_ [fountainPortalBridge]_29: -110141179
+      caveStructures_ [fountainPortalBridge]_12: 1837502828
+      caveStructures_ [fountainPortalBridge]_7: -257895511
+      caveStructures_ [fountainPortalBridge]_10: 634802656
+      caveStructures_ [fountainPortalBridge]_32: -372408295
+      caveStructures_ [fountainPortalBridge]_13: -1652852126
+      caveStructures_ [fountainPortalBridge]_22: -461336825
+      caveStructures_ [fountainPortalBridge]_0: -1396425754
+      caveStructures_ [fountainPortalBridge]_28: 1904519708
+      caveStructures_ [fountainPortalBridge]_2: 421395708
+      caveStructures_ [fountainPortalBridge]_19: -149409569
+      caveStructures_ [fountainPortalBridge]_21: 1177488106
+      caveStructures_ [fountainPortalBridge]_20: -109175082
+      caveStructures_ [fountainPortalBridge]_5: 539032566
+      caveStructures_ [fountainPortalBridge]_23: -1417182817
+      caveStructures_ [fountainPortalBridge]_6: -568701509
+      caveStructures_ [fountainPortalBridge]_18: -1461057222
+      caveStructures_ [fountainPortalBridge]_25: 1729382396
+      caveStructures_ [fountainPortalBridge]_33: -668892032
+      caveStructures_ [fountainPortalBridge]_15: -17839128
+      caveStructures_ [fountainPortalBridge]_8: 544696953
+      caveStructures_ [fountainPortalBridge]_30: 540322413
+      caveStructures_ [fountainPortalBridge]_27: 1708835350
+      caveStructures_ [fountainPortalBridge]_17: 694997862
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
