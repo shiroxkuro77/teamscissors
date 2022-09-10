@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     #region Fields
 
     private Rigidbody2D rb2D;
+    private Animator playerAnimator;
+    private SpriteRenderer mySR;
 
     // Movement support
     private Vector2 movementInput;
@@ -28,6 +30,9 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
+        mySR = GetComponent<SpriteRenderer>();
+
     }
 
     void Start()
@@ -41,8 +46,9 @@ public class PlayerController : MonoBehaviour
     }
 
     void FixedUpdate()  
-    {
+    {   
         if (movementInput != Vector2.zero)
+        
         {
         
             int numCollisions = rb2D.Cast(
@@ -54,10 +60,20 @@ public class PlayerController : MonoBehaviour
 
             if (numCollisions == 0)
             {
-        //rd2D.velocity = newVector2(movementInput * )
                 rb2D.MovePosition(rb2D.position + movementInput * movementSpeed * Time.fixedDeltaTime);
             }
+
+            //check direction
+            if (movementInput.x > 0) {
+                mySR.flipX = false;
+                //transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+            } else if (movementInput.x < 0) {
+                mySR.flipX = true;
+                //transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            }
+
         }
+        playerAnimator.SetFloat("Speed", Mathf.Abs(movementInput.magnitude));
     }
 
     #endregion
