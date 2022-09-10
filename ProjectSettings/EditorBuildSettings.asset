@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/tempScene.unity
+=======
+    path: Assets/Scenes/Scene0.unity
+>>>>>>> c14f92f55f79fdadc831d4913e963a7d0054cdd8
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
