@@ -12,6 +12,10 @@ public static class MenuManager
             case MenuName.Main:
                 SceneManager.LoadScene("Home");
                 break;
+
+            case MenuName.Pause:
+                Object.Instantiate(Resources.Load("PauseMenu"));
+                break;
         }
     }
 }
