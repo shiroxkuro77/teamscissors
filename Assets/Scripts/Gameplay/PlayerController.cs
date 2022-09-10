@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
                 movementInput,
                 movementFilter,
                 castCollisions,
-                movementSpeed * Time.fixedDeltaTime * collisionOffset
+                movementSpeed * Time.fixedDeltaTime + collisionOffset
                 );
 
             if (numCollisions == 0)
