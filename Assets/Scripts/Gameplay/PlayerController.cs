@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     // TODO: change to const
     [SerializeField]
-    private float movementSpeed = 1f;
+    private float movementSpeed = 3f;
     [SerializeField]
     private float collisionOffset = 0.05f;
 

@@ -4,10 +4,6 @@ public class BulletController : MonoBehaviour
 {
     public float bulletSpeed = 3f;
 
-    public enum Direction
-    {
-        Up, Down, Left, Right
-    }
     public Direction direction;
     private Rigidbody2D bulletRb;
 
@@ -37,7 +33,12 @@ public class BulletController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collider other)
+    void OnCollisionEnter(Collision other)
+    {
+        Destroy(gameObject);
+    }
+
+    void OnBecameInvisible()
     {
         Destroy(gameObject);
     }
