@@ -13,16 +13,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementInput;
     [SerializeField]
     private ContactFilter2D movementFilter;
-    private List<RaycastHit2D> castCollisions;
+    private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // TODO: change to const
     [SerializeField]
     private float movementSpeed = 3f;
     [SerializeField]
     private float collisionOffset = 0.05f;
-
-    // Physics support
-    int numCollisions;
 
     #endregion
 
@@ -43,11 +40,12 @@ public class PlayerController : MonoBehaviour
         movementInput = movementValue.Get<Vector2>();
     }
 
-    void FixedUpdate()
+    void FixedUpdate()  
     {
         if (movementInput != Vector2.zero)
         {
-            numCollisions = rb2D.Cast(
+        
+            int numCollisions = rb2D.Cast(
                 movementInput,
                 movementFilter,
                 castCollisions,
@@ -56,6 +54,7 @@ public class PlayerController : MonoBehaviour
 
             if (numCollisions == 0)
             {
+        //rd2D.velocity = newVector2(movementInput * )
                 rb2D.MovePosition(rb2D.position + movementInput * movementSpeed * Time.fixedDeltaTime);
             }
         }
