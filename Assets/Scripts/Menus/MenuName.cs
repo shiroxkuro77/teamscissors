@@ -6,5 +6,6 @@ public enum MenuName
 {
     Main,
     Pause,
-    GameOver
+    GameOver,
+    Win
 }

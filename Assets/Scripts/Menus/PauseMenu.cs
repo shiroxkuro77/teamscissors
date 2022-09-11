@@ -18,6 +18,7 @@ public class PauseMenu : MonoBehaviour
         {
             Time.timeScale = 1;
             gameplayMenu.paused = false;
+            gameplayMenu.gameTimer.UnPause();
             Destroy(gameObject);
         }
     }
@@ -26,6 +27,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
         gameplayMenu.paused = false;
+        gameplayMenu.gameTimer.UnPause();
         Destroy(gameObject);
     }
 
@@ -33,6 +35,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
         gameplayMenu.paused = false;
+        gameplayMenu.gameTimer.UnPause();
         MenuManager.GoToMenu(MenuName.Main);
     }
 }
